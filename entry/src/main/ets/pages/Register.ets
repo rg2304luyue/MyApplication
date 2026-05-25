@@ -47,7 +47,7 @@ struct Register {
         .width('85%')
         .height(50)
         .backgroundColor(Color.Transparent)
-        .colorBlend('#666666')
+        .fontColor('#666666')
         .onClick(() => {
           router.back();
         })

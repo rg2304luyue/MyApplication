@@ -12,11 +12,11 @@ struct Index {
         .fontSize(32)
         .fontWeight(FontWeight.Bold)
         .margin({ top: 60, bottom: 20 })
-        .colorBlend('#1A1A1A')
+        .fontColor('#1A1A1A')
 
       Text('欢迎登录')
         .fontSize(20)
-        .colorBlend('#666666')
+        .fontColor('#666666')
 
       // 账号输入框
       TextInput({ placeholder: '请输入账号' })
@@ -49,7 +49,7 @@ struct Index {
         .width('85%')
         .height(50)
         .backgroundColor(Color.Transparent)
-        .colorBlend('#007DFF')
+        .fontColor('#007DFF')
         .onClick(() => {
           // 使用 pushUrl 压入新页面，方便后续回退
           router.pushUrl({ url: 'pages/Register' });

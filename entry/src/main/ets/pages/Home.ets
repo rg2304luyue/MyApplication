@@ -27,7 +27,7 @@ struct Home {
           Text('小米风 · 便签')
             .fontSize(26)
             .fontWeight(FontWeight.Bold)
-            .colorBlend('#1A1A1A')
+            .fontColor('#1A1A1A')
 
           Button('注销')
             .fontSize(14)
@@ -55,7 +55,7 @@ struct Home {
 
                 Text(item.content)
                   .fontSize(14)
-                  .colorBlend('#555555')
+                  .fontColor('#555555')
                   .maxLines(4)
                   .textOverflow({ overflow: TextOverflow.Ellipsis })
               }
